@@ -1,0 +1,10 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="clock_12" clip-path="url(#clip0_0_102)">
+<path id="&#226;&#134;&#179; Icon Color" d="M0 10C0 15.5231 4.47692 20 10 20C15.5215 20 20 15.5231 20 10C20 4.47692 15.5215 0 10 0C4.47692 0 0 4.47692 0 10ZM10.672 5.00008C10.672 4.31873 10.1485 3.83341 9.50266 3.83341C8.85686 3.83341 8.33333 4.35575 8.33333 5.00008L8.34551 11.0017C8.40978 11.4429 8.72329 11.8153 9.15993 11.9488L13.672 13.3157C14.2708 13.4899 14.7917 13.0638 14.9638 12.5038C15.1047 11.8876 14.8317 11.2431 14.1886 11.0464L10.672 9.97008V5.00008Z" fill-rule="evenodd" clip-rule="evenodd" fill="#47B86E"/>
+</g>
+<defs>
+<clipPath id="clip0_0_102">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg>
