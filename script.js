@@ -226,20 +226,27 @@ const tabButtons = document.querySelectorAll('.tabs [data-tab]');
 const tabPanels = document.querySelectorAll('.tab-panel');
 const tabs = document.querySelector('.tabs');
 const preferredTabWidths = [290, 86, 191, 90, 109, 92, 81];
+const tabTextMeasurer = document.createElement('canvas').getContext('2d');
 
 function fitTabs() {
+  const measuredTabWidths = [...tabButtons].map((button, index) => {
+    const style = getComputedStyle(button);
+    tabTextMeasurer.font = `${style.fontWeight} ${style.fontSize} ${style.fontFamily}`;
+    const textWidth = Math.ceil(tabTextMeasurer.measureText(button.textContent.trim()).width);
+    return Math.max(preferredTabWidths[index], textWidth);
+  });
   const gap = Number.parseFloat(getComputedStyle(tabs).columnGap) || 0;
   const available = Math.max(0, tabs.clientWidth - gap * (tabButtons.length - 1));
   let low = 0;
-  let high = Math.max(...preferredTabWidths);
+  let high = Math.max(...measuredTabWidths);
   for (let iteration = 0; iteration < 24; iteration++) {
     const cap = (low + high) / 2;
-    const required = preferredTabWidths.reduce((sum, width) => sum + Math.min(width, cap), 0);
+    const required = measuredTabWidths.reduce((sum, width) => sum + Math.min(width, cap), 0);
     if (required > available) high = cap;
     else low = cap;
   }
   tabButtons.forEach((button, index) => {
-    const width = Math.min(preferredTabWidths[index], low);
+    const width = Math.min(measuredTabWidths[index], low);
     button.style.width = `${Math.round(width * 1000) / 1000}px`;
     button.title = button.textContent.trim();
   });
@@ -247,6 +254,8 @@ function fitTabs() {
 
 new ResizeObserver(fitTabs).observe(tabs);
 fitTabs();
+document.fonts.ready.then(fitTabs);
+document.fonts.addEventListener('loadingdone', fitTabs);
 
 function activateTab(tabId, scrollIntoView = false) {
   const selectedButton = document.querySelector(`.tabs [data-tab="${tabId}"]`);

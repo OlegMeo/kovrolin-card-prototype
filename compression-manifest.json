@@ -1,0 +1,329 @@
+{
+  "mapping": {
+    "assets/carpet-video-poster.png": "assets/web/carpet-video-poster-b5935025bb.webp",
+    "assets/carpet-video.gif": "assets/web/carpet-video-b5935025bb.webp",
+    "assets/cheaper.png": "assets/web/cheaper-523f36f51a.webp",
+    "assets/fonts/SF-Pro-Rounded-Bold.otf": "assets/web/SF-Pro-Rounded-Bold-1d401b5a88.woff",
+    "assets/fonts/SF-Pro-Rounded-Heavy.otf": "assets/web/SF-Pro-Rounded-Heavy-7ac80cefec.woff",
+    "assets/fonts/SF-Pro-Rounded-Medium.otf": "assets/web/SF-Pro-Rounded-Medium-b771b2b38c.woff",
+    "assets/fonts/SF-Pro-Rounded-Regular.otf": "assets/web/SF-Pro-Rounded-Regular-86c58dce76.woff",
+    "assets/fonts/SF-Pro-Rounded-Semibold.otf": "assets/web/SF-Pro-Rounded-Semibold-e6cafa7673.woff",
+    "assets/generated/liberty-10083.png": "assets/web/liberty-10083-cf47a389c0.webp",
+    "assets/generated/liberty-10087.png": "assets/web/liberty-10087-6c5cd4c6b6.webp",
+    "assets/generated/pulman-170345.png": "assets/web/pulman-170345-0fc12c3f3f.webp",
+    "assets/generated/shaggy-03.png": "assets/web/shaggy-03-af7d7ca211.webp",
+    "assets/generated/tarkett-kapri.png": "assets/web/tarkett-kapri-992c49d040.webp",
+    "assets/item-photo.png": "assets/web/product-main-487f05df5f.webp",
+    "assets/product-main.png": "assets/web/product-main-487f05df5f.webp",
+    "assets/product-room-1.png": "assets/web/product-room-1-a44889db7a.webp",
+    "assets/product-room-2.png": "assets/web/product-room-2-d3037e4344.webp",
+    "assets/product-room-3.png": "assets/web/product-room-3-9d2d0c5d1d.webp",
+    "assets/product-room-4.png": "assets/web/product-room-4-89e15f0890.webp",
+    "assets/product-room-5.png": "assets/web/product-room-5-4a07c7e289.webp",
+    "assets/product-stairs.png": "assets/web/product-stairs-53b36b154d.webp",
+    "assets/service-delivery-v6.png": "assets/web/service-delivery-v6-0ca581974b.webp",
+    "assets/service-installation.png": "assets/web/service-installation-bbe99e6db6.webp",
+    "assets/service-overlock.png": "assets/web/service-overlock-cdbfcf57cd.webp",
+    "assets/swatch-1.png": "assets/web/swatch-1-57cecb91fd.webp",
+    "assets/swatch-2.png": "assets/web/swatch-2-6f8a673cd4.webp",
+    "assets/swatch-3.png": "assets/web/swatch-3-cc2bf337e6.webp",
+    "assets/swatch-4.png": "assets/web/swatch-4-13896cc745.webp",
+    "assets/tab-measure-v2.png": "assets/web/tab-measure-v2-ff39d96f6d.webp",
+    "assets/tab-questions.png": "assets/web/tab-questions-c4a5adf123.webp",
+    "assets/video-card-photo.png": "assets/web/video-card-photo-b08e9efc8c.jpg",
+    "assets/wholesale.png": "assets/web/wholesale-d1c4269ce5.webp"
+  },
+  "report": [
+    {
+      "source": "assets/carpet-video-poster.png",
+      "target": "assets/web/carpet-video-poster-b5935025bb.webp",
+      "before": 14835651,
+      "after": 229418,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "b5935025bb007c620988de5704c18b960ca62b807581e750f7e59a249ce9aa00",
+      "target_sha256": "6d8f8741f58201d843b1ad24d2359c9f9efb04fa909955478311883458f9410c"
+    },
+    {
+      "source": "assets/carpet-video.gif",
+      "target": "assets/web/carpet-video-b5935025bb.webp",
+      "before": 14835651,
+      "after": 11364476,
+      "verified": "every animation frame, duration and loop are identical",
+      "source_sha256": "b5935025bb007c620988de5704c18b960ca62b807581e750f7e59a249ce9aa00",
+      "target_sha256": "c9673328332286b38be5d0638efdd90bc33b08e419f33ea89116c98e10735e9e"
+    },
+    {
+      "source": "assets/cheaper.png",
+      "target": "assets/web/cheaper-523f36f51a.webp",
+      "before": 790093,
+      "after": 499450,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "523f36f51a378d11df1f015ac1fb648f702e400b11ee340fb98e4639c13d54b3",
+      "target_sha256": "df3bb947874ddb90630ba9b8118805e990e9ef38211ffca4db214e7d5e42fb62"
+    },
+    {
+      "source": "assets/fonts/SF-Pro-Rounded-Bold.otf",
+      "target": "assets/web/SF-Pro-Rounded-Bold-1d401b5a88.woff",
+      "before": 6524292,
+      "after": 4569064,
+      "verified": "all font tables and complete reconstructed OTF are byte-identical",
+      "source_sha256": "1d401b5a88c9b34fc3e9ff50e417ef5001e2c8c478a322949fe190213d75425d",
+      "target_sha256": "b0a2b510c92f5f26f3d0610df78e5f36eef9be2159f6ce3aaaa972107223bb68"
+    },
+    {
+      "source": "assets/fonts/SF-Pro-Rounded-Heavy.otf",
+      "target": "assets/web/SF-Pro-Rounded-Heavy-7ac80cefec.woff",
+      "before": 6516304,
+      "after": 4575636,
+      "verified": "all font tables and complete reconstructed OTF are byte-identical",
+      "source_sha256": "7ac80cefecf89e3dbdde0c60311574e4599a815184212069b8f9e2b71dde05e3",
+      "target_sha256": "77bab0dde04c475813efe2d0880e9ddf179957bedd673aacffb1fbc3a55a66b0"
+    },
+    {
+      "source": "assets/fonts/SF-Pro-Rounded-Medium.otf",
+      "target": "assets/web/SF-Pro-Rounded-Medium-b771b2b38c.woff",
+      "before": 6487336,
+      "after": 4557536,
+      "verified": "all font tables and complete reconstructed OTF are byte-identical",
+      "source_sha256": "b771b2b38cc32d4f6c4c37115387133514151ca8b1cc5ac1867aa2ec04212995",
+      "target_sha256": "77b8fbc5d51ed6c6ec653f690f82d12d2d3ecaebb566b2dc7bdeb8e3d3826970"
+    },
+    {
+      "source": "assets/fonts/SF-Pro-Rounded-Regular.otf",
+      "target": "assets/web/SF-Pro-Rounded-Regular-86c58dce76.woff",
+      "before": 6298348,
+      "after": 4386552,
+      "verified": "all font tables and complete reconstructed OTF are byte-identical",
+      "source_sha256": "86c58dce768ee5ef36d646425f1cea4e0a2b280bfaf767fc1c04af86d2195f97",
+      "target_sha256": "ce4a0ecf29970c21543d67984f072feebbd9bb86808631c31ae32c3d03b8c0c8"
+    },
+    {
+      "source": "assets/fonts/SF-Pro-Rounded-Semibold.otf",
+      "target": "assets/web/SF-Pro-Rounded-Semibold-e6cafa7673.woff",
+      "before": 6555508,
+      "after": 4604592,
+      "verified": "all font tables and complete reconstructed OTF are byte-identical",
+      "source_sha256": "e6cafa76734967d8b5c885c5336fef73c31ee37341fd8226753c729396c75cc0",
+      "target_sha256": "496da546befbbb18d6b1b9bfd69de5441e58c2a48dab0d332b67648270e60ef1"
+    },
+    {
+      "source": "assets/generated/liberty-10083.png",
+      "target": "assets/web/liberty-10083-cf47a389c0.webp",
+      "before": 3368714,
+      "after": 2120282,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "cf47a389c06986dff2d0bd884e885850036683c649ff803bad157ece6d5db549",
+      "target_sha256": "b8eebbd821a85b68341c44b4ad9bfbdad593a4475beb245079b4db82af18a2fa"
+    },
+    {
+      "source": "assets/generated/liberty-10087.png",
+      "target": "assets/web/liberty-10087-6c5cd4c6b6.webp",
+      "before": 3521606,
+      "after": 2130958,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "6c5cd4c6b6f8b90dcf45d0872a46afd281fbe3590ecce6ed613ecc9a4cdc2774",
+      "target_sha256": "b761c08821c9860d9f363820f030bd67481dd4f094f13572f1e3e6d7f2cf4acb"
+    },
+    {
+      "source": "assets/generated/pulman-170345.png",
+      "target": "assets/web/pulman-170345-0fc12c3f3f.webp",
+      "before": 4022948,
+      "after": 2516832,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "0fc12c3f3f7eead9c92c0d37331c28ee30b870cd5666b1c3ed990aeb6cb82f16",
+      "target_sha256": "9fb06045fad97589a8386d6ab410af4be3b112baa102d55d20e56daad30769ab"
+    },
+    {
+      "source": "assets/generated/shaggy-03.png",
+      "target": "assets/web/shaggy-03-af7d7ca211.webp",
+      "before": 3187373,
+      "after": 1913098,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "af7d7ca2111156e94d940f6060b290f479571b8c365a6d1a00eb99c2f07a6f5c",
+      "target_sha256": "797d866a7e8f8a2eff534a4d4dde1c27f8e111a132df88734775133245e4c102"
+    },
+    {
+      "source": "assets/generated/tarkett-kapri.png",
+      "target": "assets/web/tarkett-kapri-992c49d040.webp",
+      "before": 3741147,
+      "after": 2265862,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "992c49d0401fb6b2ef2a880e99a2f2e32de229a18eae745d302fa983ff71f9f3",
+      "target_sha256": "0f6f7aad7df17c940291c03d5aafdd102171b547bad307d58821ec37ea12b4d9"
+    },
+    {
+      "source": "assets/item-photo.png",
+      "target": "assets/web/product-main-487f05df5f.webp",
+      "before": 3700694,
+      "after": 2212942,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "487f05df5fd612eef0efab97559c266b2a7928d6a735c76914afed61b98b3d2d",
+      "target_sha256": "340edd069e8a62ae5859f84cc31997cd3962e24a85d11921275ca2e8f4f8e729"
+    },
+    {
+      "source": "assets/product-main.png",
+      "target": "assets/web/product-main-487f05df5f.webp",
+      "before": 3700694,
+      "after": 2212942,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "487f05df5fd612eef0efab97559c266b2a7928d6a735c76914afed61b98b3d2d",
+      "target_sha256": "340edd069e8a62ae5859f84cc31997cd3962e24a85d11921275ca2e8f4f8e729"
+    },
+    {
+      "source": "assets/product-room-1.png",
+      "target": "assets/web/product-room-1-a44889db7a.webp",
+      "before": 2750022,
+      "after": 1635360,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "a44889db7ae8c659f3b7c5ebf529552dad58e267df382e1ff76e61792f2e74e9",
+      "target_sha256": "641ab67f4ddcc1cd46e8c0d217d5c5cd69dd3a7fc6298854065db106e9892b60"
+    },
+    {
+      "source": "assets/product-room-2.png",
+      "target": "assets/web/product-room-2-d3037e4344.webp",
+      "before": 3124629,
+      "after": 1844882,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "d3037e43445ca4fd5b1581030669e82afee5d8627316f32f7b9d7cf6c48adb40",
+      "target_sha256": "77f296c08a9c32e1a17d50db2abc059d96b1bb6503813af4e452b0e140d6b272"
+    },
+    {
+      "source": "assets/product-room-3.png",
+      "target": "assets/web/product-room-3-9d2d0c5d1d.webp",
+      "before": 3103267,
+      "after": 1895228,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "9d2d0c5d1d1295337d7683519d17cfe66192d4786fe3570020e016dea6ab117a",
+      "target_sha256": "0c00682cfc3e9acdc2344181b75f7d9817b62bc647589e3607ed0d1efff6f82d"
+    },
+    {
+      "source": "assets/product-room-4.png",
+      "target": "assets/web/product-room-4-89e15f0890.webp",
+      "before": 3242749,
+      "after": 1861564,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "89e15f08900b5e7f24b900b4cc77e56893e7ff7fa953e034eab793ee2fb6c1ce",
+      "target_sha256": "b140ab6f506157c3eccba964b33c60ea1dde257aa2d1fc0bddcdd23d8584f2e7"
+    },
+    {
+      "source": "assets/product-room-5.png",
+      "target": "assets/web/product-room-5-4a07c7e289.webp",
+      "before": 3218490,
+      "after": 1874536,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "4a07c7e2896c12e6f938e24c72b2e7268f273fa34c470512e0cad0868c54cc15",
+      "target_sha256": "609e98271ca894bd1d6c77b0be61a501b12215842b99eec20a197e104a2c4f59"
+    },
+    {
+      "source": "assets/product-stairs.png",
+      "target": "assets/web/product-stairs-53b36b154d.webp",
+      "before": 3581817,
+      "after": 2130296,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "53b36b154d6e3f518cc38cb6a02bd26f07d8b79490d0869d57e13c54f9a294d7",
+      "target_sha256": "22c129188ed67180cf9241320224421940fb92ffa7a5bae4a36dbe279bd46071"
+    },
+    {
+      "source": "assets/service-delivery-v6.png",
+      "target": "assets/web/service-delivery-v6-0ca581974b.webp",
+      "before": 2099918,
+      "after": 1369138,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "0ca581974b2abbb1e26a90366817ebbb5e376e3005351996060b59f2e6c397ea",
+      "target_sha256": "7c552b61f21f704947a184abec3e9037f05dea951c15ff43485669b9f430c79d"
+    },
+    {
+      "source": "assets/service-installation.png",
+      "target": "assets/web/service-installation-bbe99e6db6.webp",
+      "before": 1969371,
+      "after": 1254954,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "bbe99e6db683c8de84abb01b898488906acddce101537f31ce5e09a6a939594a",
+      "target_sha256": "6745553b3b39eab1b5709df9af24e871dae0f9d28e4a0154dcf250910ede4dbc"
+    },
+    {
+      "source": "assets/service-overlock.png",
+      "target": "assets/web/service-overlock-cdbfcf57cd.webp",
+      "before": 1402539,
+      "after": 946588,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "cdbfcf57cd08b92cf528746837eb43fec560891894ffdc3139e837aaa8732663",
+      "target_sha256": "7be7b5702e82cf88438df6a831fe3dc000c29330e3f6c971bdf598fb3f365490"
+    },
+    {
+      "source": "assets/swatch-1.png",
+      "target": "assets/web/swatch-1-57cecb91fd.webp",
+      "before": 65935,
+      "after": 45504,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "57cecb91fd0278026960ca56f16155194051c7be691196c16038fbcf84077092",
+      "target_sha256": "6762fbd05a750a56f79256dd2d1de09b4a9ab68e8ee7bbd4b4b6e73f4e0dcc70"
+    },
+    {
+      "source": "assets/swatch-2.png",
+      "target": "assets/web/swatch-2-6f8a673cd4.webp",
+      "before": 69632,
+      "after": 44414,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "6f8a673cd48739c23c48c92a62d60a7ab81e1bd73e2a910cc590bfb764ce10a6",
+      "target_sha256": "8176a778da3322dfee07851c5e15d21fcaacb91247779224a2e5adfb43464cde"
+    },
+    {
+      "source": "assets/swatch-3.png",
+      "target": "assets/web/swatch-3-cc2bf337e6.webp",
+      "before": 72338,
+      "after": 54246,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "cc2bf337e60a6015e83208434a41fa25124c2efba71913434f2626350aa932ca",
+      "target_sha256": "05c480359bbb8c034f1f058ebf2e93fcec87ef0d9a0e948f35d14b6664df054d"
+    },
+    {
+      "source": "assets/swatch-4.png",
+      "target": "assets/web/swatch-4-13896cc745.webp",
+      "before": 63001,
+      "after": 40438,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "13896cc745e25cc2a68980846126f7680ad9ae9bbca45db346618f129c44ebda",
+      "target_sha256": "0df280ec92cd4fdc076e49460e65a32ad4ef619ce63504a5dba8cd278cc49c4f"
+    },
+    {
+      "source": "assets/tab-measure-v2.png",
+      "target": "assets/web/tab-measure-v2-ff39d96f6d.webp",
+      "before": 2270867,
+      "after": 1411978,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "ff39d96f6d578870670fd861762c2241793155d7aa6c60284d6a009d371a1f43",
+      "target_sha256": "19575a3184e45b9a6b7ac9ca401a87e8ed3fd0b99ca4ccf8d84adea8fb3b1123"
+    },
+    {
+      "source": "assets/tab-questions.png",
+      "target": "assets/web/tab-questions-c4a5adf123.webp",
+      "before": 2568728,
+      "after": 1597004,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "c4a5adf123709ca645a3ee90353465b0ab4084292c62795eebdb2e01659b1224",
+      "target_sha256": "426f91c57e129f7d4ad3268ebe8974c5575de66003bcde422d64dca472f3edf3"
+    },
+    {
+      "source": "assets/video-card-photo.png",
+      "target": "assets/web/video-card-photo-b08e9efc8c.jpg",
+      "before": 29149,
+      "after": 29149,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "b08e9efc8cc755ace0b51f7e30ddea9f1673e721564066aeb2395cf39c07c42d",
+      "target_sha256": "b08e9efc8cc755ace0b51f7e30ddea9f1673e721564066aeb2395cf39c07c42d"
+    },
+    {
+      "source": "assets/wholesale.png",
+      "target": "assets/web/wholesale-d1c4269ce5.webp",
+      "before": 3046696,
+      "after": 1822814,
+      "verified": "decoded RGBA pixels and resolution are identical",
+      "source_sha256": "d1c4269ce5178c6264523a14bc79386898cc454e2d42ca53232826cd5076e6d7",
+      "target_sha256": "ed3c056f304b047cfab2069ec5b52f3073d254dfaf24fb2c67c9b8dd21fd9b4a"
+    }
+  ],
+  "before": 120765507,
+  "after": 67804791,
+  "saving_percent": 43.9
+}
