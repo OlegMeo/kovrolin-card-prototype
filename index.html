@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ковролин AW Ganges (Гангиз) 99</title>
-    <link rel="stylesheet" href="styles.css?v=20261108-9" />
+    <link rel="stylesheet" href="styles.css?v=20261109-4" />
   </head>
   <body>
+    <template id="desktop-template">
     <header class="site-header">
       <div class="utility">
         <div class="container utility__inner">
@@ -21,7 +22,16 @@
             <a href="#company">О компании</a>
             <a class="showroom" href="#showroom"><b>-10%</b> В ШОУРУМЕ</a>
           </nav>
-          <a class="phone" href="tel:+74991121720"><img src="assets/clock-green.svg" alt="" />8 499 112-17-20</a>
+          <div class="phone-contact">
+            <a class="phone" href="tel:+74991121720" aria-describedby="header-hours"><img src="assets/clock-green.svg" alt="" />8 499 112-17-20</a>
+            <span class="phone-tooltip" id="header-hours" role="tooltip">
+              <strong>09:00 – 19:00</strong>
+              <span class="phone-tooltip__weekend">
+                <span>СБ <em>10:00 – 17:00</em></span>
+                <span>ВС <em>11:00 – 17:00</em></span>
+              </span>
+            </span>
+          </div>
         </div>
       </div>
 
@@ -255,19 +265,19 @@
               </dl><p>Стоимость доставки зависит от суммы заказа, адреса и объёма материалов. За пределами МКАД — дополнительно 30 ₽/км. Срочная доставка возможна при наличии свободного транспорта. Подробности уточняйте по телефону <a class="text-link" href="tel:+74991121720">8 (499) 112-17-20</a> или в разделе «<a class="text-link" href="#delivery-page" data-toast="Здесь будет страница доставки и оплаты">Доставка и оплата</a>».</p></section>
             </div>
             <section class="service-section payment-section"><h2>Способы оплаты</h2><div class="payment-methods">
-              <div><span class="payment-icon"><img src="assets/payment-cash.svg" alt="" /></span><p>Оплата наличными<br />курьеру при доставке</p></div>
-              <div><span class="payment-icon"><img src="assets/payment-bank.svg" alt="" /></span><p>Оплата безналичная<br />с НДС / без НДС</p></div>
-              <div><span class="payment-icon"><img src="assets/payment-portal.svg" alt="" /></span><p>Оплата через Портал<br />Поставщиков (для гос.сектора)</p></div>
+              <div><span class="payment-icon"><img src="assets/payment-cash-icon.svg" alt="" /></span><p>Оплата наличными<br />курьеру при доставке</p></div>
+              <div><span class="payment-icon"><img src="assets/payment-bank-icon.svg" alt="" /></span><p>Оплата безналичная<br />с НДС / без НДС</p></div>
+              <div><span class="payment-icon"><img src="assets/payment-portal-icon.svg" alt="" /></span><p>Оплата через Портал<br />Поставщиков (для гос.сектора)</p></div>
             </div></section>
           </div>
           <div class="service-art service-art--delivery"><img src="assets/service-delivery-v6.png" alt="Фургон с рулонами ковролина" /></div>
         </section>
         <section id="questions" class="tab-panel service-layout questions-panel" role="tabpanel" hidden>
-          <div class="service-content"><section class="service-section"><h2>Популярные вопросы и ответы</h2><div class="faq-list"><details class="faq-item" open><summary><img src="assets/faq-chevron-closed.svg" alt="" />Как рассчитать, сколько ковролина нужно?</summary><p>Измерьте длину и ширину помещения, учитывая ниши и дверные проёмы. При выборе рулона важна его ширина: раскладка должна учитывать направление ворса и возможные стыки. Точный запас на подрезку и совмещение рисунка поможет определить замерщик.</p></details>
-<details class="faq-item"><summary><img src="assets/faq-chevron-closed.svg" alt="" />Какой ковролин выбрать для спальни и прихожей?</summary><p>Для спальни обычно выбирают мягкое покрытие с комфортным ворсом. Для прихожей удобнее плотный короткий ворс, который проще очищать. В обоих случаях учитывайте назначение покрытия и класс износостойкости, указанные производителем.</p></details>
-<details class="faq-item"><summary><img src="assets/faq-chevron-closed.svg" alt="" />Когда нужна обработка края оверлоком?</summary><p>Оверлок нужен, если края покрытия останутся открытыми — например, когда ковролин используют как отдельный ковёр или дорожку. Обработка помогает защитить срез от осыпания и придаёт ему аккуратный вид. Если край скрыт под плинтусом, способ отделки подбирают при укладке.</p></details>
-<details class="faq-item"><summary><img src="assets/faq-chevron-closed.svg" alt="" />Как ухаживать за ковролином?</summary><p>Регулярно очищайте покрытие пылесосом. Свежую жидкость промокайте чистой салфеткой, не растирая пятно. Способ влажной чистки и средство выбирайте по инструкции производителя; сначала проверьте средство на незаметном участке и избегайте избыточного намокания.</p></details>
-<details class="faq-item"><summary><img src="assets/faq-chevron-closed.svg" alt="" />Можно ли уложить ковролин самостоятельно?</summary><p>Небольшое помещение простой формы можно подготовить и застелить самостоятельно, соблюдая инструкцию к покрытию. Основание должно быть ровным, сухим и чистым. Если нужны сложная подрезка, стыковка полотен или укладка на лестнице, лучше обратиться к специалистам.</p></details></div><button class="service-cta question-order" type="button">Задать вопрос</button></section></div>
+          <div class="service-content"><section class="service-section"><h2>Популярные вопросы и ответы</h2><div class="faq-list"><details class="faq-item" open><summary><span class="faq-icon" aria-hidden="true"><img class="faq-icon__minus" src="assets/faq-minus.svg" alt="" /><img class="faq-icon__plus" src="assets/faq-plus.svg" alt="" /></span>Как рассчитать, сколько ковролина нужно?</summary><p>Измерьте длину и ширину помещения, учитывая ниши и дверные проёмы. При выборе рулона важна его ширина: раскладка должна учитывать направление ворса и возможные стыки. Точный запас на подрезку и совмещение рисунка поможет определить замерщик.</p></details>
+<details class="faq-item"><summary><span class="faq-icon" aria-hidden="true"><img class="faq-icon__minus" src="assets/faq-minus.svg" alt="" /><img class="faq-icon__plus" src="assets/faq-plus.svg" alt="" /></span>Какой ковролин выбрать для спальни и прихожей?</summary><p>Для спальни обычно выбирают мягкое покрытие с комфортным ворсом. Для прихожей удобнее плотный короткий ворс, который проще очищать. В обоих случаях учитывайте назначение покрытия и класс износостойкости, указанные производителем.</p></details>
+<details class="faq-item"><summary><span class="faq-icon" aria-hidden="true"><img class="faq-icon__minus" src="assets/faq-minus.svg" alt="" /><img class="faq-icon__plus" src="assets/faq-plus.svg" alt="" /></span>Когда нужна обработка края оверлоком?</summary><p>Оверлок нужен, если края покрытия останутся открытыми — например, когда ковролин используют как отдельный ковёр или дорожку. Обработка помогает защитить срез от осыпания и придаёт ему аккуратный вид. Если край скрыт под плинтусом, способ отделки подбирают при укладке.</p></details>
+<details class="faq-item"><summary><span class="faq-icon" aria-hidden="true"><img class="faq-icon__minus" src="assets/faq-minus.svg" alt="" /><img class="faq-icon__plus" src="assets/faq-plus.svg" alt="" /></span>Как ухаживать за ковролином?</summary><p>Регулярно очищайте покрытие пылесосом. Свежую жидкость промокайте чистой салфеткой, не растирая пятно. Способ влажной чистки и средство выбирайте по инструкции производителя; сначала проверьте средство на незаметном участке и избегайте избыточного намокания.</p></details>
+<details class="faq-item"><summary><span class="faq-icon" aria-hidden="true"><img class="faq-icon__minus" src="assets/faq-minus.svg" alt="" /><img class="faq-icon__plus" src="assets/faq-plus.svg" alt="" /></span>Можно ли уложить ковролин самостоятельно?</summary><p>Небольшое помещение простой формы можно подготовить и застелить самостоятельно, соблюдая инструкцию к покрытию. Основание должно быть ровным, сухим и чистым. Если нужны сложная подрезка, стыковка полотен или укладка на лестнице, лучше обратиться к специалистам.</p></details></div><button class="service-cta question-order" type="button">Задать вопрос</button></section></div>
           <div class="service-art service-art--questions"><img src="assets/tab-questions.png" alt="Обсуждение вопросов о ковролине" /></div>
         </section>
 
@@ -356,6 +366,14 @@
 
     <div class="toast" role="status" aria-live="polite"></div>
     <button class="back-to-top" type="button" aria-label="Вернуться на первый экран" hidden><img src="assets/back-to-top.svg" alt="" /></button>
-    <script src="script.js?v=20261108-9"></script>
+    </template>
+    <div id="desktop-site" class="desktop-site" hidden></div>
+    <main class="mobile-notice" hidden>
+      <div>
+        <h1>Откройте сайт на компьютере</h1>
+        <p>Чтобы продолжить работу, перейдите на сайт с компьютера или ноутбука.</p>
+      </div>
+    </main>
+    <script src="script.js?v=20261109-1"></script>
   </body>
 </html>

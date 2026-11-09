@@ -1,3 +1,28 @@
+function isMobileDevice() {
+  const mobileAgent = /Android|iPhone|iPad|iPod|Mobile|Tablet|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  const desktopAgentIPad = navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1;
+  return Boolean(navigator.userAgentData?.mobile || mobileAgent || desktopAgentIPad || window.innerWidth < 768);
+}
+
+let desktopInitialized = false;
+function updateDeviceGate() {
+  const blocked = isMobileDevice();
+  const desktop = document.getElementById('desktop-site');
+  document.body.classList.toggle('is-mobile', blocked);
+  document.querySelector('.mobile-notice').hidden = !blocked;
+  desktop.hidden = blocked;
+  desktop.inert = blocked;
+  if (!blocked && !desktopInitialized) {
+    desktop.append(document.getElementById('desktop-template').content.cloneNode(true));
+    desktopInitialized = true;
+    initDesktopSite();
+  }
+}
+
+window.addEventListener('resize', updateDeviceGate);
+updateDeviceGate();
+
+function initDesktopSite() {
 const toast = document.querySelector('.toast');
 let toastTimer;
 
@@ -313,4 +338,6 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
     }
   });
 });
+
+}
 
